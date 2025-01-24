@@ -1,0 +1,88 @@
+site_name: Introdução ao Projeto de Circuitos Digitais utilizando FPGA
+site_author: Rodolfo Azevedo
+site_description: Introdução ao Projeto de Circuitos Digitais utilizando FPGA
+repo_name: FPGA
+repo_url: https://github.com/rjazevedo/FPGA
+copyright: CC BY-SA 4.0 - Rodolfo Azevedo
+theme: 
+  name: material
+  highlightjs: true
+  language: pt-BR
+  features:
+    - content.code.copy
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - toc.integrate
+    - navigation.top
+    - navigation.footer
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid_custom  
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - tables
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/@rjazevedo
+    - icon: fontawesome/brands/github
+      link: https://github.com/rjazevedo
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/rjazevedo
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/rjazevedo
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+plugins:
+  - search
+  - mermaid2
+  # - pdf-export:
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  # - table-reader
+  # - autolinks
+nav:
+  - Apresentação : index.md
+  - Circuitos Lógicos: 
+    - Sistemas De Numeração: SistemasDeNumeracao.md
+    - Circuitos Lógicos: CircuitosLogicos.md
+    - Portas Lógicas: PortasLogicas.md
+    - Circuitos Combinacionais: CircuitosCombinacionais.md
+    - Circuitos Sequenciais: CircuitosSequenciais.md
+    - Máquinas de Estado: MaquinasDeEstado.md
+  - Verilog: 
+    - Noções Básicas de Verilog: verilogNocoesBasicas.md
+    - Primeiro circuito: verilogPrimeiroCircuito.md
+    - Como Simular: verilogComoSimular.md
+    - Circuito Combinacional: verilogCircuitoCombinacional.md
+    - Display de 7 Segmentos: verilogDisplay7Segmentos.md
+    - Circuito Sequencial: verilogCircuitoSequencial.md
+    - Máquina de Estados: verilogMaquinasDeEstados.md
+  - Avançado: 
+    - Componentes externos
