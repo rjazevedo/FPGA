@@ -8,6 +8,8 @@ Esse curso pretende dar noções de Projeto de Circuitos Digitais utilizando FPG
 
 Nessa parte serão fornecidas as noções básicas sobre circuitos Lógicos. Se você já cursou alguma disciplina de circuitos lógicos, recomendamos que passe mais rapidamente pelos conceitos para relembrar mas não deixe de visualizar os conteúdos.
 
+Nessa parte serão vistos os conceitos básicos de sistemas de numeração, portas lógicas, circuitos combinacionais, circuitos sequenciais, máquinas de estado e memórias.
+
 ### Parte 2: Verilog e Componentes Básicos
 
 Nessa parte será descrita a linguagem de descrição de hardware Verilog e um pouco de SystemVerilog. Serão apresentados os componentes básicos de um circuito digital e como eles podem ser modelados em Verilog. Como todas as linguagens de descrição de hardware, Verilog funciona melhor através de modelos de código, que serão fornecidos para os principais componentes.

@@ -76,6 +76,7 @@ nav:
     - Circuitos Combinacionais: CircuitosCombinacionais.md
     - Circuitos Sequenciais: CircuitosSequenciais.md
     - Máquinas de Estado: MaquinasDeEstado.md
+    - Memórias: Memorias.md
   - Verilog: 
     - Noções Básicas de Verilog: verilogNocoesBasicas.md
     - Primeiro circuito: verilogPrimeiroCircuito.md
