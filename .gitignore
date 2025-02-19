@@ -1,3 +1,5 @@
 site/*
 circuitos.ipynb
 .DS_store
+venv/
+env/
