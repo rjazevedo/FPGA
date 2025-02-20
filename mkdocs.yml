@@ -88,37 +88,48 @@ nav:
   - Avançado: 
     - Componentes externos
   - Atividades:
-    - 000 - Começando do inicio: laboratorios/000-blink.md
-    - 001 - Contador de LEDs: laboratorios/001-led_counter.md
-    - 002 - Deslocamento de LEDs: laboratorios/002-led_shifter.md
-    - 003 - Botão: laboratorios/003-button.md
-    - 004 - Códigos de correção de erro: laboratorios/004-hamming_code.md
-    - 005 - Modos de Botão: laboratorios/005-button_modes.md
-    - 006 - Semáforo: laboratorios/006-semaphore.md
-    - 007 - Display de 7 Segmentos: laboratorios/007-7_segment.md
-    - 008 - Relógio Simples: laboratorios/008-simple_clock.md
-    - 009 - Semáforo com Display de 7 Segmentos: laboratorios/009-7_segment_semaphore.md
-    - 010 - Construindo uma unidade Logica Aritmética: laboratorios/010-alu.md
-    - 011 - Calculadora: laboratorios/011-calculator.md
-    - 012 - Memória: laboratorios/012-memory.md
-    - 013 - PWM: laboratorios/013-pwm.md
-    - 014 - Construindo um Reprodutor de Músicas: laboratorios/014-simple_music_player.md
-    - 015 - Serdes: laboratorios/015-serdes.md
-    - 016 - SPI: laboratorios/016-spi.md
-    - 017 - Acelerômetro SPI: laboratorios/017-spi_accelerometer.md
-    - 018 - Cartão SD SPI: laboratorios/018-spi_sdcard.md
-    - 019 - I2C: laboratorios/019-i2c.md
-    - 020 - Acelerômetro I2C: laboratorios/020-i2c_accelerometer.md
-    - 021 - Sensor de Temperatura I2C: laboratorios/021-i2c_temperature_sensor.md
-    - 022 - Display I2C: laboratorios/022-i2c_display.md
-    - 023 - PLL: laboratorios/023-pll.md
-    - 024 - VGA: laboratorios/024-vga.md
-    - 025 - Pong: laboratorios/025-pong.md
-    - 026 - HDMI: laboratorios/026-hdmi.md
-    - 027 - Câmera: laboratorios/027-camera.md
-    - 028 - Detector de Mãos: laboratorios/028-hand_detector.md
-    - 029 - Utilizando um Softcore RISC-V: laboratorios/029-using_softcore.md
-    - 030 - Tornando GPIO um Periférico: laboratorios/030-making_gpio_peripheral.md
-    - 031 - Inicializando Linux: laboratorios/031-booting_linux.md
+    - Circuitos Sequenciais:
+      - 000 - Começando do inicio: laboratorios/000-blink.md
+      - 001 - Contador de LEDs: laboratorios/001-led_counter.md
+      - 002 - Deslocamento de LEDs: laboratorios/002-led_shifter.md
+    - Sinais externos:
+      - 003 - Botão: laboratorios/003-button.md
+      - 004 - Códigos de correção de erro: laboratorios/004-hamming_code.md
+    - Maquinas de Estado:
+      - 005 - Modos de Botão: laboratorios/005-button_modes.md
+      - 006 - Semáforo: laboratorios/006-semaphore.md
+    - Decodificadores:
+      - 007 - Display de 7 Segmentos: laboratorios/007-7_segment.md
+      - 008 - Relógio Simples: laboratorios/008-simple_clock.md
+      - 009 - Semáforo com Display de 7 Segmentos: laboratorios/009-7_segment_semaphore.md
+    - Operações Aritméticas:
+      - 010 - Construindo uma unidade Logica Aritmética: laboratorios/010-alu.md
+      - 011 - Calculadora: laboratorios/011-calculator.md
+    - Memória:
+      - 012 - Memória: laboratorios/012-memory.md
+    - Modulação:
+      - 013 - PWM: laboratorios/013-pwm.md
+      - 014 - Servo Motor: laboratorios/014-servo.md
+      - 014 - Construindo um Reprodutor de Músicas: laboratorios/014-simple_music_player.md
+    - Comunicação Serial:
+      - 015 - Serdes: laboratorios/015-serdes.md
+      - 016 - SPI: laboratorios/016-spi.md
+      - 017 - Acelerômetro SPI: laboratorios/017-spi_accelerometer.md
+      - 018 - Cartão SD SPI: laboratorios/018-spi_sdcard.md
+      - 019 - I2C: laboratorios/019-i2c.md
+      - 020 - Acelerômetro I2C: laboratorios/020-i2c_accelerometer.md
+      - 021 - Sensor de Temperatura I2C: laboratorios/021-i2c_temperature_sensor.md
+      - 022 - Display I2C: laboratorios/022-i2c_display.md
+    - Manipulanção de Frequência:
+      - 023 - PLL: laboratorios/023-pll.md
+      - 024 - VGA: laboratorios/024-vga.md
+      - 025 - Pong: laboratorios/025-pong.md
+      - 026 - HDMI: laboratorios/026-hdmi.md
+      - 027 - Câmera: laboratorios/027-camera.md
+      - 028 - Detector de Mãos: laboratorios/028-hand_detector.md
+    - Processadores:
+      - 029 - Utilizando um Softcore RISC-V: laboratorios/029-using_softcore.md
+      - 030 - Tornando GPIO um Periférico: laboratorios/030-making_gpio_peripheral.md
+      - 031 - Inicializando Linux: laboratorios/031-booting_linux.md
   - Guias:
     - Instalação: guias/instalacao.md
