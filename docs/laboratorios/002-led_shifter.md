@@ -28,7 +28,7 @@ Seu objetivo é escrever um módulo Verilog chamado **LedShifter**, que deve:
 O comportamento esperado do módulo é semelhante ao da atividade anterior, com a diferença de que, em vez de incrementar um contador, será realizado um **deslocamento circular para a esquerda** em um registrador de 8 bits.  
 
 - **Executar um deslocamento a cada 1 segundo**, utilizando `CLK_FREQ` como referência.  
-- **Iniciar com o valor 5 (`8'b00011111`)** quando `rst_n` estiver acionado.  
+- **Iniciar com o valor 0x1F (`8'b00011111`)** quando `rst_n` estiver acionado.  
 
 ### Código inicial  
 
