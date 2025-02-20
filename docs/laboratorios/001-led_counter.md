@@ -41,4 +41,5 @@ Para realizar a entrega, basta enviar o arquivo **led_counter.v** para o GitHub.
 
 O **GitHub Classroom** já está configurado para verificar a entrega e atribuir notas automaticamente com base nos testes.  
 
-**Dica**: Os testes do GitHub estão embutidos nos arquivos do laboratório. Se quiser saber mais sobre eles, consulte o script de correção `run.sh` no repositório do GitHub. **Não altere os arquivos de correção!**  
+!!! note "Dica"
+    Os testes do GitHub estão embutidos nos arquivos do laboratório. Se quiser saber mais sobre eles, consulte o script de correção `run sh` no repositório do GitHub. **Não altere os arquivos de correção!**   

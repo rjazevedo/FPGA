@@ -73,7 +73,8 @@ No exemplo acima:
 - O tipo do pino é definido com `IOBUF PORT "nome" IO_TYPE=LVCMOS33;`  
 - Para pinos de clock, a frequência é especificada com `FREQUENCY PORT "nome" 25.0 MHz;`
 
-**Dica**: O manual com a localização física de todos os pinos do kit FPGA pode ser encontrado em: [Manual Kit xxx](google.com).
+!!! note "Dica"
+    O manual com a localização física de todos os pinos do kit FPGA pode ser encontrado em: [Manual Kit xxx](google.com).
 
 ### Carregando no FPGA  
 
@@ -157,4 +158,5 @@ O **GitHub Classroom** já está configurado para verificar a entrega e atribuir
 
 Para as próximas atividades, forneceremos apenas a especificação do módulo principal (top module), incluindo entradas, saídas e nomes de sinais.  
 
-**Dica**: Os testes do GitHub estão embutidos nos arquivos do laboratório. Se quiser saber mais sobre eles, veja o script de correção `run.sh` no repositório do GitHub. **Não altere os arquivos de correção!**  
+!!! note "Dica"
+    Os testes do GitHub estão embutidos nos arquivos do laboratório. Se quiser saber mais sobre eles, consulte o script de correção `run sh` no repositório do GitHub. **Não altere os arquivos de correção!**   
