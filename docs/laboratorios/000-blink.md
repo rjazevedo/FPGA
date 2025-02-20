@@ -30,7 +30,7 @@ module Blink #(
 localparam ONE_SECOND  = CLK_FREQ;
 localparam HALF_SECOND = CLK_FREQ / 2;
 
-reg [32:0] counter;
+reg [31:0] counter;
 
 always @(posedge clk ) begin
     if (!rst_n) begin
@@ -71,7 +71,9 @@ No exemplo acima:
 
 - O nome de cada pino é atribuído pela diretiva `LOCATE COMP "nome" SITE "pino físico";`  
 - O tipo do pino é definido com `IOBUF PORT "nome" IO_TYPE=LVCMOS33;`  
-- Para pinos de clock, a frequência é especificada com `FREQUENCY PORT "nome" 25.0 MHz;`  
+- Para pinos de clock, a frequência é especificada com `FREQUENCY PORT "nome" 25.0 MHz;`
+
+**Dica**: O manual com a localização física de todos os pinos do kit FPGA pode ser encontrado em: [Manual Kit xxx](google.com).
 
 ### Carregando no FPGA  
 
