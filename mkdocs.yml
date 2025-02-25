@@ -110,28 +110,29 @@ nav:
     - Modulação:
       - 013 - PWM: laboratorios/013-pwm.md
       - 014 - Servo Motor: laboratorios/014-servo.md
-      - 015 - Construindo um Reprodutor de Músicas: laboratorios/014-simple_music_player.md
+      - 015 - Construindo um Reprodutor de Músicas: laboratorios/015-simple_music_player.md
     - Comunicação Serial:
-      - 016 - Serdes: laboratorios/015-serdes.md
-      - 017 - SPI: laboratorios/016-spi.md
-      - 018 - Acelerômetro SPI: laboratorios/017-spi_accelerometer.md
-      - 019 - Cartão SD SPI: laboratorios/018-spi_sdcard.md
-      - 011 - I2C: laboratorios/019-i2c.md
-      - 021 - Acelerômetro I2C: laboratorios/020-i2c_accelerometer.md
-      - 022 - Sensor de Temperatura I2C: laboratorios/021-i2c_temperature_sensor.md
-      - 023 - Display I2C: laboratorios/022-i2c_display.md
-      - 024 - UART: laboratorios/023-uart.md
-      - 025 - GPS UART: laboratorios/024-uart_gps.md
+      - 016 - Serdes: laboratorios/016-serdes.md
+      - 017 - SPI: laboratorios/017-spi.md
+      - 018 - Acelerômetro SPI: laboratorios/018-spi_accelerometer.md
+      - 019 - Cartão SD SPI: laboratorios/019-spi_sdcard.md
+      - 020 - Display SPI: laboratorios/020-spi_display.md
+      - 021 - I2C: laboratorios/021-i2c.md
+      - 022 - Acelerômetro I2C: laboratorios/022-i2c_accelerometer.md
+      - 023 - Sensor de Temperatura I2C: laboratorios/023-i2c_temperature_sensor.md
+      - 024 - Display I2C: laboratorios/024-i2c_display.md
+      - 025 - UART: laboratorios/025-uart.md
+      - 026 - GPS UART: laboratorios/026-uart_gps.md
     - Manipulanção de Frequência:
-      - 026 - PLL: laboratorios/023-pll.md
-      - 027 - VGA: laboratorios/024-vga.md
-      - 028 - Pong: laboratorios/025-pong.md
-      - 029 - HDMI: laboratorios/026-hdmi.md
-      - 030 - Câmera: laboratorios/027-camera.md
-      - 031 - Detector de Mãos: laboratorios/028-hand_detector.md
+      - 027 - PLL: laboratorios/027-pll.md
+      - 028 - VGA: laboratorios/028-vga.md
+      - 029 - Pong: laboratorios/029-pong.md
+      - 030 - HDMI: laboratorios/030-hdmi.md
+      - 031 - Câmera: laboratorios/031-camera.md
+      - 032 - Detector de Mãos: laboratorios/032-hand_detector.md
     - Processadores:
-      - 032 - Utilizando um Softcore RISC-V: laboratorios/029-using_softcore.md
-      - 033 - Tornando GPIO um Periférico: laboratorios/030-making_gpio_peripheral.md
-      - 034 - Inicializando Linux: laboratorios/031-booting_linux.md
+      - 033 - Utilizando um Softcore RISC-V: laboratorios/033-using_softcore.md
+      - 034 - Tornando GPIO um Periférico: laboratorios/034-making_gpio_peripheral.md
+      - 035 - Inicializando Linux: laboratorios/035-booting_linux.md
   - Guias:
     - Instalação: guias/instalacao.md
