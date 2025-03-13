@@ -41,7 +41,7 @@ O somador completo possui três entradas (A, B e Vai um de Entrada) e duas saíd
 
 ### Multiplexadores
 
-Multiplexadores são circuitos combinacionais que selecionam uma de várias entradas e a encaminham para a saída. Eles são usados para direcionar dados de diferentes fontes para um único destino. As vezes são chamados também de **Seletor**.
+Multiplexadores são circuitos combinacionais que selecionam uma de várias entradas e a encaminham para a saída. Eles são usados para direcionar dados de diferentes fontes para um único destino. Às vezes são chamados também de **Seletor**.
 
 #### Multiplexador 2:1
 

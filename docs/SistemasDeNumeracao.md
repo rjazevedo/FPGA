@@ -94,7 +94,7 @@ O deslocamento para a esquerda (<<) multiplica o número por 2.
 
 ### Deslocamento para a Direita
 
-O deslocamento para a direita (>>) divide o número por 2.
+O deslocamento para a direita (>>) divide o número por 2. Note que a divisão é inteira, ou seja, o resto é descartado.
 
 #### Exemplo
 

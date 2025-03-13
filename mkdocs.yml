@@ -70,8 +70,8 @@ plugins:
 nav:
   - Apresentação : index.md
   - Circuitos Lógicos: 
-    - Sistemas De Numeração: SistemasDeNumeracao.md
     - Circuitos Lógicos: CircuitosLogicos.md
+    - Sistemas De Numeração: SistemasDeNumeracao.md
     - Portas Lógicas: PortasLogicas.md
     - Circuitos Combinacionais: CircuitosCombinacionais.md
     - Circuitos Sequenciais: CircuitosSequenciais.md
